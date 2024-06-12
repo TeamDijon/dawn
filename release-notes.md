@@ -1,21 +1,17 @@
-Dawn 9.0.0 introduces app blocks in header, video upload with auto-loop, "Click and hover" zoom, new desktop header menu style, a gift card recipient form, and some performance improvements on images.
-
+Dawn 14.0.0 adds a new Quick Add Bulk setting, two improvements for “Sign in with Shop”, and a host of performance and interaction improvements.
 ### Added
-- You can now incorporate eligible app blocks directly into your header section, to the left of your cart icon.
-- You can upload video files directly to Shopify and showcase them in the Video section. Additionally, you have the option to enable automatic video looping.
-- We introduced a new "Click and hover" zoom option on desktop for product page images to add a more subtle hover effect.
-- We've added a new style option to the desktop header menu, allowing you to collapse it into a hamburger icon with a popout drawer for a more compact and streamlined menu experience.
-- We added a language and currency switcher to the header section for shops selling in multiple currencies or languages.
-- The Slideshow, Image Banner, and Image with Text sections now have a subtle background animation option, which adds depth and dynamism to the overall design.
-- You can allow gift cards to be sent to a recipient with a new form on the gift card product page.
-
+- The new Quick Add Bulk functionality can be added to the product grid and featured collection sections, offering buyers an efficient, keyboard-optimized bulk buying flow.
+- Buyers who “Sign in with Shop” will now see the avatar associated with their Shop account in the header in place of the generic customer account icon.
+- The Classic Customer Accounts Login Page now includes a “Sign in with Shop” button for merchants with “Sign in with Shop” enabled.
 ### Changed
-- Important: The Richtext section heading type has been changed. This might result in your heading text being set back to the default value "Talk about your brand". This can happen when manually upgrading to this version.
-- We reordered the "Color scheme" setting to improve hierarchy in the header section.
-- The “Follow on Shop” option is enabled by default in the footer.
-- Section headings now provide more formatting options like bold, italic, and links.
-
+- Filters can now include images.
+- The Quick Order List section has greatly improved support for keyboard navigation.
+- The maximum number of products per page has been increased to 36.
+- Multicolumn, Collection list, Product grids, and Related products have an increased maximum of 6 columns.
 ### Fixes and improvements
-- We improved the performance of the Multicolumn section by reducing the image sizes being loaded.
-- We fixed the blog post slides to show a preview of the subsequent slide.
-- We optimized the logo width to ensure the image looked crisp on all device sizes.
+- General UX improvements to swatches and other areas of the filter experience.
+- Padding improvements for Collections at various column sizes.
+- Fixed a bug where switching variants on a product without a media attached to it could disable the add to cart button.
+- Fixed a similar bug related to products without variant images.
+- Updated branding and copy to change references from Twitter to X.
+- Updated price filter to work with currency formats that use commas.
